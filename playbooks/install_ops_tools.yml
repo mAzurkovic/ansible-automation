@@ -1,0 +1,8 @@
+---
+  - name: get dev tools
+    hosts: hosts
+    become: yes
+
+    tasks:
+        - name: install docker
+          

@@ -12,3 +12,6 @@ install-dev-tools:
 
 local:
 	cp envs/local envs/_current
+
+lab:
+	cp envs/lab envs/_current
