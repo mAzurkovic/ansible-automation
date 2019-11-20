@@ -15,3 +15,7 @@
 
         - name: install node package
           apt: name=nodejs
+
+        # Install VIM text editor
+        - name: install vim
+          apt: name=vim state=present
